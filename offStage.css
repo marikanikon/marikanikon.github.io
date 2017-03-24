@@ -1,0 +1,141 @@
+head{
+}
+
+.page-title{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+button {
+  display: inline;
+  background-color: white;
+}
+
+.button1{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  opacity: 0.5;
+}
+
+.button2{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  opacity: 0.5;
+}
+
+.button3{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  opacity: 0.5;
+}
+
+a{
+  text-decoration: none;
+}
+
+.actor-title{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.production-title{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.production-detail{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 13px;
+}
+.description-text{
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  margin: 40px;
+  width: 75%;
+}
+
+.photoCred {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 40px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    opacity: 1.0;
+}
+
+.directButton {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.productionButton{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.organButton{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.costumeButton{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.section-images > img {
+    width: 75%;
+    height: 75%;
+    opacity: 1;
+    display: inline-block;
+    margin: 40px;
+}
+
+.direct {
+  display: none;
+}
+
+.production {
+  display: none;
+}
+
+.organ {
+  display: none;
+}
+
+.costume {
+  display: none;
+}
+
+button{
+  padding: 0px;
+  border: 0px;
+}

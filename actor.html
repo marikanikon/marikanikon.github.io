@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Roboto:100" rel="stylesheet">
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="actor.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header class="page-title">
+        <center>
+        <h1> MARIKA NIKO </h1>
+        </center>
+      </header>
+      <div class="page-list">
+      <center>
+        <ul>
+          <button class="button1"> <a href="index.html"> HOME </a> </button>
+          <button class="button2"> <a href="actor.html"> ON-STAGE </a> </button>
+          <button class="button3"> OFF-STAGE </button>
+          <script>
+          $(".button1").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button2").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button3").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </ul>
+      </center>
+      </div>
+      <div class="actor-container">
+        <div class="actor-images">
+          <center>
+          <div class="yellowBrickButton"> <img src="ActorPage/IMG_4023.jpg" /> </div>
+          <div class="mujeresButton"> <img src="ActorPage/NYUAD_WomenRidingInTheSand_8658 - Version 2.jpg" /> </div>
+          <div class="slpButton"> <img src="ActorPage/IMG_4999 (1).jpg" /> </div>
+          <div class="otherButton"> <img src="ActorPage/2016-05-10 04.56.04 1.jpg" /> </div>
+          <div class="dancerButton"> <img src="ActorPage/IMG_2036.jpg" /> </div>
+          <div class="filmButton"> <img src="ActorPage/img_8802.jpg" /> </div>
+          <script>
+          $(".yellowBrickButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".mujeresButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".slpButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".otherButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".dancerButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".filmButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </center>
+        </div>
+        <div class="actor-writing">
+          <script>
+          $('.yellowBrickButton').click(function() {
+            $('yellowBrickButton').css('opacity','1.0')
+            $('.actor-writing').addClass('yellowBrick').removeClass('mujeres slp otherActing dancer film');
+            $('.yellowBrick').show();
+            $('.mujeres, .slp, .otherActing, .dancer, .film').hide();
+          });
+          $('.mujeresButton').click(function() {
+            $('.actor-writing').addClass('.mujeres').removeClass('yellowBrick slp otherActing dancer film');
+            $('.mujeres').show();
+            $('.yellowBrick, .slp, .otherActing, .film, .dancer').hide();
+          });
+          $('.slpButton').click(function() {
+            $('.actor-writing').addClass('.slp').removeClass('mujeres yellowBrick otherActing dancer film');
+            $('.slp').show();
+            $('.mujeres, .yellowBrick, .otherActing, .film, .dancer').hide();
+          });
+          $('.otherButton').click(function() {
+            $('.actor-writing').addClass('.otherActing').removeClass('mujeres slp yellowBrick dancer film');
+            $('.otherActing').show();
+            $('.mujeres, .slp, .yellowBrick, .film, .dancer').hide();
+          });
+          $('.dancerButton').click(function() {
+            $('.actor-writing').addClass('.dancer').removeClass('mujeres slp yellowBrick film otherActing');
+            $('.dancer').show();
+            $('.mujeres, .slp, .yellowBrick, .otherActing, .film').hide();
+          });
+          $('.filmButton').click(function() {
+            $('.actor-writing').addClass('.film').removeClass('mujeres slp yellowBrick otherActing dancer');
+            $('.film').show();
+            $('.mujeres, .slp, .yellowBrick, .otherActing, .dancer').hide();
+          });
+          </script>
+        <div class="yellowBrick">
+          <center>
+          <div class="actor-title"> Acting </div>
+          <div class="production-title"> Yellow Brick Road </div>
+          <div class="production-detail"> 2016 Play </div>
+          <div class="description-text"> Thatrical adaptation by Tomi Tsunoda of The Wonderful Wizard of Oz, that explores contemporary conversations around climate crisis, displacement, bureaucracy, survival, and dependency.</div>
+            <div class="section-images">
+              <img src="Pics/6D9A4302.jpg" />
+              <img src="Pics/6D9A4052.jpg" />
+              <img src="ActorPage/IMG_4023 copy.jpg" />
+            </div>
+          <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+          </center>
+        </div>
+        <div class="mujeres">
+          <center>
+            <div class="actor-title"> Acting </div>
+            <div class="production-title"> Mujeres Cabargando En La Arena </div>
+            <div class="production-detail"> 2016 Play </div>
+            <div class="description-text"> Directed by Carlos Diaz Leon from Chile, this production works with three of Federico García Lorca's literature to question gender, love, identity, and desire. </div>
+              <div class="section-images">
+                <img src="ActorPage/NYUAD_WomenRidingInTheSand_3294.jpg" />
+                <img src="ActorPage/NYUAD_WomenRidingInTheSand_8658.jpg" />
+              </div>
+            <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+            </center>
+        </div>
+        <div class="slp">
+          <center>
+            <div class="actor-title"> Acting </div>
+            <div class="production-title"> in the becoming </div>
+            <div class="production-detail"> 2016 Performance </div>
+            <div class="description-text"> Being inspired by Butoh, this piece talks about how my body actively chooses, embodies, deforms, habitualizes, and takes on the pressure not from society but from my own self. Directed, choreographed, performed, and designed by me. </div>
+              <div class="section-images">
+                <img src="ActorPage/IMG_4974.jpg" />
+                <img src="ActorPage/IMG_4990.jpg" />
+                <img src="ActorPage/IMG_5011.jpg" />
+              </div>
+            <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+          </center>
+        </div>
+        <div class="otherActing">
+          <center>
+          <div class="actor-title"> Acting </div>
+          <div class="production-title"> RealAD Show </div>
+          <div class="description-text"> A comedy musical for the incoming freshman that talks about important issues surrounding college life. Written and performed by NYU Abu Dhabi students. </div>
+          <div class="production-detail"> 2016 Musical </div>
+          <div id="section-images">
+            <img src="ActorPage/DSC08311.jpg" />
+            <img src="ActorPage/DSC08372.jpg" />
+          </div>
+          <div id="photoCred"> Photo Credits To Simon MyungGun Seo </div>
+          <div class="production-title"> LOUP-GAROU </div>
+          <div class="production-detail"> 2016 Play </div>
+          <div class="description-text"> A piece incorporating several different children's games to talk about the missing and murdered Aboriginal women of Canada. </div>
+          <div id="section-images">
+            <img src="ActorPage/ORG2016-05-10 04.56.04 1.jpg" />
+            <img src="ActorPage/2016-05-10 04.55.59 1.jpg" />
+          </div>
+          <div id="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Gaar Adams </div>
+          <div class="production-title"> Bayt </div>
+          <div class="production-detail"> 2016 Installation </div>
+          <div class="description-text"> A conceptual immersive performance that explores trauma, childhood and intimate spaces through a hyperbolic dollhouse. </div>
+        </center>
+        </div>
+        <div class="dancer">
+          <center>
+          <div class="actor-title"> Dancing </div>
+          <div class="production-title"> Susan Hefuna's </div>
+          <div class="production-detail"> 2017 Performance </div>
+          <div class="description-text"> In collaboration with the Guggenheim Abu Dhabi and artist Susan Hefuna, we created a 20 minutes outdoor movement piece which explores spacial awareness in a hectic society. </div>
+          <div class="production-title"> Training </div>
+          <div class="description-text"> I have received formal and foundational training in classical ballet but have branched off to other dance styles such as contemporary dance, contact improvisation, hip hop, and modern dance for the most recent four years. This - wanting to dissasociate myself with classical ballet - is my own form of resistance from femininity, westernization, physical restraint, and confined ideas of beauty. My current interest lies in the philosophy and practice of Butoh. I hope to continue my struggle in pursuing dance that is free from my own body that is trained, conformed, and influenced by classical ballet. </div>
+          <div id="description-text"> 2000-2007 </div>
+          <div class="description-subtext"> The Finchley Ballet School (UK, London). Followed the Royal Academy of Dance curriculum.</div>
+          <div id="description-text"> 2007-2011 </div>
+          <div class="description-subtext"> Higo Ballet Studio (Japan, Yokohama) </div>
+          <div id="description-text"> 2015-2016 </div>
+          <div class="description-subtext"> Attitude Dance Society Ballet Classes in New York University Abu Dhabi (UAE, Abu Dhabi) </div>
+          <div id="description-text"> 2016 </div>
+          <div class="description-subtext">Peridance Capezio Dance Studio Contemporary Classes (US, New York) </div>
+          <div id="description-text"> 2017 </div>
+          <div class="description-subtext"> Kawai Kiori's Contact Improvisation Classes (UAE, Abu Dhabi) </div>
+          <div id="section-images">
+            <img src="ActorPage/ORGIMG_2036.jpg" />
+            <img src="ActorPage/ORG13340604_1214043695272654_803122410_o.jpg" />
+          <div class="photoCred"> Photo Credits To Motoi Oyane and Jose A. Varias </div>
+          </center>
+          </div>
+        </div>
+        <div class="film">
+          <center>
+          <div class="actor-title"> Film Acting </div>
+          <div class="production-title"> Truth Or Dare </div>
+          <div class="production-detail"> 2015 Film </div>
+          <div class="description-text"> A short film about a girl who seeks for recognition from others.  </div>
+          <div class="production-title"> Fall And Soar </div>
+          <div class="production-detail"> 2015 Film </div>
+          <div class="description-text"> A short film about a dancer who finds love towards dance through the appearance of an angel.  </div>
+          <div class="production-title"> Wildflower </div>
+          <div class="production-detail"> 2014 Film </div>
+          <div class="description-text"> A short film about adapting to new environments. Directed by Kamau Wainaina. </div>
+          <div class="section-images">
+            <img src="ActorPage/maxresdefault.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

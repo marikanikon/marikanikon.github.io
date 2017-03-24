@@ -1,0 +1,84 @@
+head{
+
+}
+
+.page-title{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  width: 100%;
+}
+
+.color1 > img {
+  display: block;
+  max-width: 75%;
+  max-height: 25%;
+  text-align: center;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -33%);
+}
+.nocolor1 > img {
+  display: block;
+  max-width: 75%;
+  max-height: 25%;
+  text-align: center;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -33%);
+}
+
+.section-text1 {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  /*color: white;*/
+}
+
+.color2 > img {
+  display: block;
+  max-width: 75%;
+  max-height: 25%;
+  text-align: center;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -66%);
+}
+
+.nocolor2 > img {
+  display: block;
+  max-width: 75%;
+  max-height: 25%;
+  text-align: center;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -66%);
+}
+
+.section-text2 {
+  position: relative;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  /*color: white;*/
+}
+
+.contact{
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-label{
+  margin-bottom: 20px;
+}
+
+.contact-address{
+  margin-bottom: 40px;
+}

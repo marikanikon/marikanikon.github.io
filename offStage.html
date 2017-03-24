@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Roboto:100" rel="stylesheet">
+        <meta charset="utf-8" />
+    <link rel="stylesheet" href="offStage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <header class="page-title">
+        <center>
+        <h1> MARIKA NIKO </h1>
+        </center>
+      </header>
+      <div class="page-list">
+      <center>
+        <ul>
+          <button class="button1"> <a href="index.html"> HOME </a> </button>
+          <button class="button2"> <a href="actor.html"> ON-STAGE </a> </button>
+          <button class="button3"> <a hred="offStafe.html"> OFF-STAGE </button>
+          <script>
+          $(".button1").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button2").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button3").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </ul>
+      </center>
+      </div>
+      <div class="offStage-container">
+        <div class="offStage-images">
+          <center>
+            <div class="directButton"> <img src="SecondPage/AliceInWonderland-1.jpg" /> </div>
+            <div class="productionButton"> <img src="SecondPage/IMG_8281 copy.jpg" /> </div>
+            <div class="organButton"> <img src="SecondPage/DSC06115.jpg" /> </div>
+            <div class="costumeButton"> <img src="SecondPage/16649427_10154913473152674_2198678017558340569_n.jpg" /> </div>
+          <script>
+          $(".directButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".productionButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".organButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".costumeButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </div>
+      <div class="offStage-writing">
+          <script>
+          $('.directButton').click(function() {
+            $('.offStage-writing').addClass('direct').removeClass('organ costume production');
+            $('.direct').show();
+            $('.organ, .costume, .production').hide();
+          });
+          $('.productionButton').click(function() {
+            $('.offStage-writing').addClass('.production').removeClass('organ costume direct');
+            $('.production').show();
+            $('.organ, .costume, .direct').hide();
+          });
+          $('.organButton').click(function() {
+            $('.offStage-writing').addClass('.organ').removeClass('direct costume production');
+            $('.organ').show();
+            $('.direct, .costume, .production').hide();
+          });
+          $('.costumeButton').click(function() {
+            $('.offStage-writing').addClass('.otherActing').removeClass('organ direct production');
+            $('.costume').show();
+            $('.organ, .direct, .production').hide();
+          });
+          </script>
+          <div class="direct">
+            <center>
+            <div class="actor-title"> Directing </div>
+            <div class="production-title"> Alice in Wonderland </div>
+            <div class="production-detail"> 2015 Performance </div>
+            <div class="description-text"> lalala </div>
+              <div class="section-images">
+                <img src="FirstPage/AliceInWonderland-54.jpg" />
+                <img src="SecondPage/AliceInWonderland-132 copy.jpg" />
+                <img src="AliceInWonderland-42 (1).jpg" />
+              </div>
+            <div class="production-title"> in the becoming </div>
+            <div class="production-detail"> 2016 Performance </div>
+            <div class="description-text"> See full description here </div>
+          </center>
+          </div>
+          <div class="production">
+            <center>
+            <div class="actor-title"> Production Managing </div>
+            <div class="production-title"> The Return of La Argentina </div>
+            <div class="production-detail"> 2017 Production Assistant and Post-show Talk Moderator </div>
+            <div class="description-text"> Being inspired by the great Butoh master, Kazuo Ohno, Trajal Harrell aims to archive his masterpiece La Argentina. Assisted Trajal Harrell and Jean-Stephan for the special one-night show in Abu Dhabi. </div>
+            <div class="production-title"> Susan's work </div>
+            <div class="production-detail"> 2017 Production Collaborator and Conductor </div>
+            <div class="description-text"> Susan Hefuna collaborates with NYU Abu Dhabi students to create a piece about spacial awareness. Worked with the Guggenheim Abu Dhabi team to organize and conduct the collaborative process, and worked with Susan as a performer to craft this piece together. </div>
+          </div>
+          <div class="organ">
+            <center>
+            <div class="actor-title"> Organizing </div>
+            <div class="production-title"> Attitude Dance Society </div>
+            <div class="production-detail"> 2015-16 Vice President </div>
+            <div class="description-text"> Attitude is the one and only dance group in NYU Abu Dhabil, that stands for all the dancers in the community. Managed weekly classes and workshops with professional instructors and visiting artists for 270 members. Organized a dance recital where I worked on the technical aspect of the show and the incorporation of local schools and dance studios. </div>
+            <div class="production-title"> Body Voices Conference </div>
+            <div class="production-detail"> 2016 Director of Student Engagement and Internal Outreach </div>
+            <div class="description-text"> lalala </div>
+              <div class="section-images">
+                <img src="SecondPage/DSC06164.jpg">
+              </div>
+            <div class="production-title"> ArtBeat Festival </div>
+            <div class="production-detail"> 2015 Treasurer and Assistant Director of Logistics </div>
+            <div class="description-text"> lalala </div>
+              <div class="section-images">
+                <img src="SecondPage/11080711_1453181334973055_179795182359361816_o.jpg" />
+                <img src="SecondPage/Art-beat.png" />
+              </div>
+            </center>
+          </div>
+          <div class="costume">
+            <center>
+              <div class="actor-title"> Costume Making </div>
+              <div class="production-title"> ANAEMIA </div>
+              <div class="production-detail"> 2017 Designer and Dramaturg </div>
+              <div class="description-text"> lalala </div>
+              <div class="production-title"> 65 joules </div>
+              <div class="production-detail"> 2017 Designer </div>
+              <div class="description-text"> lalala </div>
+              <div class="production-title"> in the becoming </div>
+              <div class="production-detail"> 2017 Costume Designer </div>
+              <div class="description-text"> See full description here </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
