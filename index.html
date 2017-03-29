@@ -16,28 +16,20 @@
       </header>
         <div class="section-container">
             <center>
-              <div class="onStageButton">
-                <div class="color1"> <img src="FirstPage/NYUAD_WomenRidingInTheSand_8670.jpg" /> </div>
-                <div class="nocolor1"> <img src="FirstPage/NYUAD_WomenRidingInTheSand_8670 (1).jpg" /> </div>
-                <div class="section-text1"> on-stage </div>
-              </div>
-              <div class="offStageButton">
-                <div class="color2"> <img src="FirstPage/AliceInWonderland-54 2.jpg" /> </div>
-                <div class="nocolor2"> <img src="FirstPage/AliceInWonderland-54 2 (1).jpg" /> </div>
-                <div class="section-text2"> off-stage </div>
-              </div>
+              <div class="onStageImg"> <img src="Untitled-2.jpg" /> </div>
+              <div class="offStageImg"> <img src="Untitled-5.jpg" /> </div>
             </center>
             <script>
-              $(".onStageButton").hover(function(){
-                  $(this).find(".nocolor1").stop().animate({"opacity" : "0"});
-                }, function(){
-                  $(this).find(".nocolor1").stop().animate({"opacity" : "1"});
-              });
-              $(".offStageButton").hover(function(){
-                  $(this).find(".nocolor2").stop().animate({"opacity" : "0"});
-                }, function(){
-                  $(this).find(".nocolor2").stop().animate({"opacity" : "1"});
-                });
+            $(".onStageImg").hover(function(){
+              $(this).stop().animate({"opacity": "1"});
+            }, function(){
+              $(this).stop().animate({"opacity": "0.3"});
+            });
+            $(".offStageImg").hover(function(){
+              $(this).stop().animate({"opacity": "1"});
+            }, function(){
+              $(this).stop().animate({"opacity": "0.3"});
+            });
                 </script>
         </div>
     </div>
