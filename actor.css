@@ -16,6 +16,8 @@ ul {
 button {
   display: inline;
   background-color: white;
+  text-decoration: none;
+  color: black;
 }
 
 .button1{
