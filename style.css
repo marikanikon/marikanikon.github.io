@@ -6,13 +6,48 @@ head{
   font-weight: 100;
   font-family: 'Alegreya Sans SC', sans-serif;
   width: 100%;
+  font-size: 25px;
 }
 
 a{
   text-decoration: none;
 }
 
-.onStageImg > img {
+p {
+  max-width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -38%);
+}
+
+.section-text1{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 30px;
+  opacity: 0.5;
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-40%, -70%);
+}
+
+.section-text2{
+  font-weight: 100;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 30px;
+  opacity: 0.5;
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-60%, -70%);
+}
+
+/*.onStageImg > img {
   display: block;
   max-width: 25%;
   text-align: center;
@@ -32,7 +67,7 @@ a{
   left: 50%;
   transform: translate(-50%, -70%);
   opacity: 1;
-}
+}*/
 
 /*.color1 > img {
   display: block;
@@ -96,8 +131,7 @@ a{
 
 .contact{
   font-size: 15px;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   bottom: 0;
   width: 100%;
