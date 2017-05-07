@@ -64,6 +64,7 @@ button{
   color: black;
   cursor: pointer;
   display: inline-block;
+  padding-left: 10px;
 }
 
 .section-text1 {
@@ -72,6 +73,7 @@ button{
   color: black;
   cursor: pointer;
   display: block;
+  padding-left: 10px;
 }
 
 .list2 {
@@ -81,6 +83,7 @@ button{
   color: black;
   cursor: pointer;
   float:right;
+  padding-right: 10px;
 }
 
 .section-text2 {
@@ -90,6 +93,7 @@ button{
   cursor: pointer;
   float: right;
   clear: right;
+  padding-right: 10px;
 }
 
 a {
