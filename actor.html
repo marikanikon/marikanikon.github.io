@@ -85,10 +85,11 @@
         <div class="actor-writing">
           <script>
           $('.yellowBrickButton').click(function() {
-            $('yellowBrickButton').css('opacity','1.0')
             $('.actor-writing').addClass('yellowBrick').removeClass('mujeres slp otherActing dancer film');
             $('.yellowBrick').show();
             $('.mujeres, .slp, .otherActing, .dancer, .film').hide();
+            // $('.yellowBrickButton').css('opacity','1.0');
+            // $('.mujeresButton, .slpButton, .otherButton, .dancerButton, .filmButton').css('opacity','0.5');
           });
           $('.mujeresButton').click(function() {
             $('.actor-writing').addClass('.mujeres').removeClass('yellowBrick slp otherActing dancer film');
