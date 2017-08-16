@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,500|EB+Garamond" rel="stylesheet">
+        <meta charset="utf-8" />
+    <link rel="stylesheet" href="mover.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <header class="page-title">
+        <center>
+        <h1> MARIKA NIKO</h1>
+        </center>
+      </header>
+
+      <div class="page-list">
+      <center>
+        <ul>
+          <button class="button1"> <a href="index.html"> HOME </a> </button>
+          <button class="button2"> <a href="bio.html"> BIO </a> </button>
+          <button class="button3"> <a href="works.html"> WORKS </a> </button>
+          <script>
+          $('.button1').css('opacity', '1');
+          $(".button2").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button3").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </ul>
+      </center>
+      </div>
+
+      <div class="works-container">
+        <div class="works-images">
+          <center>
+            <div class="moverButton"> <a href="mover.html"> <img src="TEST/topIcon/mover.jpg" /> </div>
+            <div class="organizerButton"> <a href="organizer.html"> <img src="TEST/topIcon/organizer.jpg" /> </a></div>
+            <div class="designerButton"> <a href="designer.html"> <img src="TEST/topIcon/designer.jpg" /> </a></div>
+            <div class="actorButton"> <a href="actor.html"> <img src="TEST/topIcon/actor.jpg" /> </a></div>
+          <script>
+          $(".moverButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".organizerButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".designerButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".actorButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </div>
+
+    </div>
+  </body>
+</html>
