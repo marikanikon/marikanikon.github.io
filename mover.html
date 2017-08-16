@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,500|EB+Garamond" rel="stylesheet">
+        <meta charset="utf-8" />
+    <link rel="stylesheet" href="mover.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <header class="page-title">
+        <center>
+        <h1> MARIKA NIKO</h1>
+        </center>
+      </header>
+
+      <div class="page-list">
+      <center>
+        <ul>
+          <button class="button1"> <a href="index.html"> HOME </a> </button>
+          <button class="button2"> <a href="bio.html"> BIO </a> </button>
+          <button class="button3"> <u> <a href="works.html"> WORKS </a> </u> </button>
+          <script>
+          $('.button3').css('opacity', '1');
+          $(".button1").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button2").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </ul>
+      </center>
+      </div>
+
+      <div class="works-container">
+        <div class="works-images">
+          <center>
+            <div class="moverButton"> <img src="topIcon/mover.jpg" /> </div>
+            <div class="organizerButton"> <a href="organizer.html"> <img src="topIcon/organizer.jpg" /> </a></div>
+            <div class="designerButton"> <a href="designer.html"> <img src="topIcon/designer.jpg" /> </a></div>
+            <div class="actorButton"> <a href="actor.html"> <img src="topIcon/actor.jpg" /> </a></div>
+          <script>
+          $('.moverButton').css('opacity', '1');
+          $(".organizerButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".designerButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".actorButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </div>
+
+      <hr class="featurette-divider">
+      <div class="specific">
+          <div id="exp">training</div>
+          <div id="prd">productions</div>
+        <script>
+        $('#exp').click(function() {
+            $('.mover').addClass('.experience').removeClass('.productions');
+            $('.experience').show();
+            $('.productions').hide();
+          });
+        $('#prd').click(function() {
+            $('.mover').addClass('.productions').removeClass('.experience');
+            $('.productions').show();
+            $('.experience').hide();
+          });
+        </script>
+      </div>
+      <hr class="featurette-divider2">
+
+      <div class="mover">
+
+        <div class="experience">
+        <center>
+        <div class="title"> Mover: Experience </div>
+          <div class="description-text"> I have received formal and foundational training in classical ballet but have branched off to other dance styles such as contemporary dance, contact improvisation, hip hop, and modern dance for the most recent four years. This - wanting to dissasociate myself with classical ballet - is my own form of resistance from femininity, westernization, physical restraint, and confined ideas of beauty. My current interest lies in the philosophy and practice of Butoh. </div>
+          <div id="description-text"> 2017 </div>
+          <div class="description-subtext"> Kazuo Ohno Dance Studio Butoh Classes (Japan, Yokohama)<br> 
+          Kawai Kiori's Contact Improvisation Classes (UAE, Abu Dhabi) </div>
+          <div id="description-text"> 2016 </div>
+          <div class="description-subtext">Peridance Capezio Dance Studio Contemporary Classes (US, New York) </div>
+          <div id="description-text"> 2015-2016 </div>
+          <div class="description-subtext"> Attitude Dance Society Ballet Classes in New York University Abu Dhabi (UAE, Abu Dhabi) </div>
+          <div id="description-text"> 2007-2011 </div>
+          <div class="description-subtext"> Higo Ballet Studio (Japan, Yokohama) </div>
+          <div id="description-text"> 2000-2007 </div>
+          <div class="description-subtext"> The Finchley Ballet School (UK, London). Followed the Royal Academy of Dance curriculum.</div>
+
+          <iframe src="https://player.vimeo.com/video/196334320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/196334320">ATRIUM | Alexandre Bagot &amp; Marika Niko</a> from <a href="https://vimeo.com/user35763379">Alexandre Bagot</a> on <a href="https://vimeo.com">Vimeo</a>; Video Performance.</p>
+          
+          <div id="section-images">
+            <img src="TEST/mover/dance1.jpg" />
+            <img src="TEST/mover/dance2.jpg" /></div>
+          <div class="photoCred"> Photo Credits To Motoi Oyane and Jose A. Varias </div>
+        </center>
+        </div>
+
+
+        <div class="productions">
+        <center>
+        <div class="title"> Mover: Productions</div>
+         <div class="production-title"> in the becoming </div>
+            <div class="production-detail"> 2016 Performance </div>
+            <div class="description-text"> Being inspired by Butoh, this piece talks about how my body actively chooses, embodies, deforms, habitualizes, and takes on the pressure not from society but from my own self. Directed, choreographed, performed, and designed by me. </div>
+              <div id="section-images">
+                <img src="TEST/mover/slp1.jpg" />
+                <img src="TEST/mover/slp2.jpg" />
+              </div>
+            <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+        <hr id="featurette-divider">
+          <div class="production-title"> The Creative Act: Performance, Process, Presence  </div>
+            <div class="production-detail"> 2017 Performance </div>
+            <div class="description-text">In collaboration with the Guggenheim Abu Dhabi and artist Susan Hefuna, we created a 20 minutes movement piece which explores the tension, energy, and connection that exists in between other human bodies.</div>
+            <div id="section-images">
+              <img src="TEST/mover/gghm1.jpg" />
+              <img src="TEST/mover/gghm2.jpg" />
+            </div>
+            <div class="photoCred"> Photo Credits To The Guggenheim Museum Abu Dhabi </div>
+        <hr id="featurette-divider">
+          <div class="production-title"> Yelow Brick Road </div>
+            <div class="production-detail"> 2017 Performance </div>
+            <div class="description-text">Theatrical adaptation by Tomi Tsunoda of The Wonderful Wizard of Oz, that explores contemporary conversations around climate crisis, displacement, bureaucracy, survival, and dependency.</div>
+            <div id="section-images">
+              <img src="TEST/mover/yellow1.jpg" />
+              <img src="TEST/mover/yellow2.jpg" />
+              <img src="TEST/mover/yellow3.jpg" />
+            </div>
+            <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+        </center>
+        </div>
+
+        </div> <!-- for class"mover" -->
+        </div> <!-- for class"content" -->
+
+        </body>
+        </html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,500|EB+Garamond" rel="stylesheet">
+        <meta charset="utf-8" />
+    <link rel="stylesheet" href="mover.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <header class="page-title">
+        <center>
+        <h1> MARIKA NIKO</h1>
+        </center>
+      </header>
+
+      <div class="page-list">
+      <center>
+        <ul>
+          <button class="button1"> <a href="index.html"> HOME </a> </button>
+          <button class="button2"> <a href="bio.html"> BIO </a> </button>
+          <button class="button3"> <u> <a href="works.html"> WORKS </a> </u> </button>
+          <script>
+          $('.button3').css('opacity', '1');
+          $(".button1").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".button2").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </ul>
+      </center>
+      </div>
+
+      <div class="works-container">
+        <div class="works-images">
+          <center>
+            <div class="moverButton"> <a href="mover.html"> <img src="topIcon/mover.jpg" /> </a> </div>
+            <div class="organizerButton"> <img src="topIcon/organizer.jpg" /> </div>
+            <div class="designerButton"> <a href="designer.html"> <img src="topIcon/designer.jpg" /> </a></div>
+            <div class="actorButton"> <a href="actor.html"> <img src="topIcon/actor.jpg" /> </a></div>
+          <script>
+          $('.organizerButton').css('cursor', 'default');
+          $('.organizerButton').css('opacity', '1');
+          $(".moverButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".designerButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".actorButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          </script>
+        </div>
+
+      <hr class="featurette-divider">
+      <div class="specific">
+          <div id="exp">experience</div>
+      </div>
+      <hr class="featurette-divider2">
+
+      <div class="org">
+
+      <div id="experience">
+        <center>
+        <div class="title"> Organizer: Experience </div><!-- 
+        <div class="production-title"> MUJIN-TO Production </div>
+            <div class="production-detail"> 2017 Gallery Intern </div>
+            <div class="description-text">  </div>
+
+        <hr id="featurette-divider"> -->
+
+        <div class="production-title"> The Return of La Argentina by Trajal Harrel </div>
+            <div class="production-detail"> 2017 Production Assistant and Post-show Talk Moderator </div>
+            <div class="description-text">  </div>
+
+        <hr id="featurette-divider">
+
+        <div class="production-title"> The Creative Act: Performance, Process, Presence </div>
+            <div class="production-detail"> 2017 Production Collaborater and Conductor </div>
+            <div class="description-text"> Artist, Susan Hefuna, collaborates with NYU Abu Dhabi students to create a piece about spacial awareness. Worked with the Guggenheim Abu Dhabi team to organize and conduct the collaborative process, and worked with Susan as a performer to craft this piece together. </div>
+              <div id="section-images">
+                <img src="TEST/organizer/gghm1.jpg" />
+                <img src="TEST/organizer/gghm2.jpg" />
+              </div>
+            <div class="photoCred"> Courtesy of The Guggenheim Museum Abu Dhabi </div>
+
+        <hr id="featurette-divider">
+
+            <div class="production-title"> Body Voices Conference </div>
+            <div class="production-detail"> 2016 Director of Student Engagement and Internal Outreach </div>
+            <div class="description-text"> Organized a three-day conference about dance incorporating dance scholars across the Middle East and beyond. Founded a platform to support creative student initiatives.. </div>
+              <div id="section-images">
+                <img src="TEST/organizer/bodyvoice.jpg" />
+              </div>
+
+        <hr id="featurette-divider">
+            <div class="production-title"> Attitude Dance Society </div>
+            <div class="production-detail"> 2015-16 Vice President </div>
+            <div class="description-text"> Attitude is the one and only dance group in NYU Abu Dhabi, that stands for all the dancers in the community. Managed weekly classes and workshops with professional instructors and visiting artists for 270 members. Organized dance recitals where I worked on the technical aspect of the show and the incorporation of local schools and dance studios. </div>
+              <div id="section-images">
+
+        <hr id="featurette-divider">
+
+            <div class="production-title"> ArtBeat Festival </div>
+            <div class="production-detail"> 2015 Treasurer and Assistant Director of Logistics </div>
+            <div class="description-text"> Co-founded a three days Arts Festival in The Netherlands, that explore experimental and creative initiatives lead by students from United World College Maastricht. </div>
+              <div id="section-images">
+                <img src="TEST/organizer/artbeat1.jpg" />
+                <img src="TEST/organizer/artbeat2.jpg" />
+              </div>
+        </center>
+      </div> <!-- experience end -->
+
+    </div> <!-- org end -->
+    </div> <!-- works-container end -->
+    </div> <!-- content end -->
+
+    </body>
+    </html>
