@@ -54,9 +54,11 @@ a{
 
 img {
   max-width: 300px;
+  display: block;
 }
 
 .myBio {
+  display: block;
   font-weight: 400;
   font-family: 'EB Garamond', serif;
   max-width: 300px;
