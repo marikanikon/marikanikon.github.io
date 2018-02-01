@@ -102,13 +102,14 @@ a{
   display: inline;
   font-family: 'Alegreya Sans SC', sans-serif;
   cursor: pointer;
+  opacity: 0.5;
 }
 
 /*<-- experience -->*/
 
-.experience {
+/*.experience {
   display: none;
-}
+}*/
 
 .title{
   font-weight: 300;

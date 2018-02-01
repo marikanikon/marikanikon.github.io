@@ -52,20 +52,18 @@ a{
 
 /*<-- bio -->*/
 
-.bio {
-  max-width: 50%;
-  display: -webkit-inline-flex;
-  display: inline-flex;
-  margin: auto;
-}
-
 img {
   max-width: 300px;
 }
 
 .myBio {
-  text-align: left;
-  margin-left: 30px;
   font-weight: 400;
   font-family: 'EB Garamond', serif;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  height: 100px;
 }

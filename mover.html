@@ -64,15 +64,13 @@
           <div id="exp">training</div>
           <div id="prd">productions</div>
         <script>
-        $('#exp').click(function() {
-            $('.mover').addClass('.experience').removeClass('.productions');
-            $('.experience').show();
-            $('.productions').hide();
-          });
         $('#prd').click(function() {
             $('.mover').addClass('.productions').removeClass('.experience');
             $('.productions').show();
             $('.experience').hide();
+          });
+        $("#prd").click(function(){
+            $(this).css('opacity','1.0');
           });
         </script>
       </div>
