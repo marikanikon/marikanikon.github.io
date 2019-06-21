@@ -52,7 +52,7 @@ a{
 
 /*<-- WORKS subbar -->*/
 
-.moverButton {
+.choreoButton {
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -60,7 +60,7 @@ a{
   cursor: pointer;
 }
 
-.organizerButton{
+.designButton{
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -68,7 +68,7 @@ a{
   cursor: pointer;
 }
 
-.designerButton{
+.danceButton{
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -76,8 +76,15 @@ a{
   cursor: pointer;
 }
 
-.actorButton{
+.fibartButton{
   width: 100px;
+  height: 100px;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.otherButton{width: 100px;
   height: 100px;
   display: inline-block;
   opacity: 0.5;

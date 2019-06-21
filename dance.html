@@ -3,7 +3,7 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,500|EB+Garamond" rel="stylesheet">
         <meta charset="utf-8" />
-    <link rel="stylesheet" href="mover.css" />
+    <link rel="stylesheet" href="dance.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
 
@@ -35,23 +35,30 @@
       <div class="works-container">
         <div class="works-images">
           <center>
-            <div class="moverButton"> <img src="TEST/topIcon/mover.jpg" /> </div>
-            <div class="organizerButton"> <a href="organizer.html"> <img src="TEST/topIcon/organizer.jpg" /> </a></div>
-            <div class="designerButton"> <a href="designer.html"> <img src="TEST/topIcon/designer.jpg" /> </a></div>
-            <div class="actorButton"> <a href="actor.html"> <img src="TEST/topIcon/actor.jpg" /> </a></div>
+            <div class="choreoButton"> <a href="choreo.html"> <img src="TEST/topIcon/choreo.jpg" /> </div>
+            <div class="designButton"> <a href="design.html"> <img src="TEST/topIcon/cosdesign.jpg" /> </a></div>
+            <div class="danceButton"> <a href="dance.html"> <img src="TEST/topIcon/dance.jpg" /> </a></div>
+            <div class="fibartButton"> <a href="fibart.html"> <img src="TEST/topIcon/fibart.jpg" /> </a></div>
+            <div class="otherButton"> <a href="other.html"> <img src="TEST/topIcon/other.jpg" /> </a></div>
           <script>
-          $('.moverButton').css('opacity', '1');
-          $(".organizerButton").hover(function(){
+          $('.danceButton').css('cursor', 'default');
+          $('.danceButton').css('opacity', '1');
+          $(".choreoButton").hover(function(){
             $(this).stop().animate({"opacity": "1"});
           }, function(){
             $(this).stop().animate({"opacity": "0.5"});
           });
-          $(".designerButton").hover(function(){
+          $(".designButton").hover(function(){
             $(this).stop().animate({"opacity": "1"});
           }, function(){
             $(this).stop().animate({"opacity": "0.5"});
           });
-          $(".actorButton").hover(function(){
+          $(".fibartButton").hover(function(){
+            $(this).stop().animate({"opacity": "1"});
+          }, function(){
+            $(this).stop().animate({"opacity": "0.5"});
+          });
+          $(".otherButton").hover(function(){
             $(this).stop().animate({"opacity": "1"});
           }, function(){
             $(this).stop().animate({"opacity": "0.5"});
@@ -61,9 +68,9 @@
 
       <hr class="featurette-divider">
       <div class="specific">
-          <div id="exp">training</div>
-          <div id="prd">productions</div>
-        <script>
+          <div id="exp">experience</div>
+          <!-- <div id="prd">productions</div> -->
+        <!-- <script>
         $('#exp').click(function() {
             $('.mover').addClass('.experience').removeClass('.productions');
             $('.experience').show();
@@ -77,7 +84,7 @@
         $("#prd").click(function(){
             $(this).css('opacity','1.0');
           });
-        </script>
+        </script> -->
       </div>
       <hr class="featurette-divider2">
 
@@ -85,9 +92,9 @@
 
         <div class="experience">
         <center>
-        <div class="title"> Mover: Experience </div>
-          <div class="description-text"> I have received formal and foundational training in classical ballet but have branched off to other dance styles such as contemporary dance, contact improvisation, hip hop, and modern dance for the most recent four years. This - wanting to dissasociate myself with classical ballet - is my own form of resistance from femininity, westernization, physical restraint, and confined ideas of beauty. My current interest lies in the philosophy and practice of Butoh. </div>
-          <div id="description-text"> 2017 </div>
+        <div class="title"> Dancer: Experience </div>
+          <div class="description-text"> I have received formal and foundational training in classical ballet but have branched off to other dance styles such as contemporary dance, contact improvisation, hip hop, and modern dance for the most recent four years. My current interest lies in the philosophy and practice of Butoh. </div>
+          <div id="description-text"> 2017-2018 </div>
           <div class="description-subtext"> Kazuo Ohno Dance Studio Butoh Classes (Japan, Yokohama)<br> 
           Kawai Kiori's Contact Improvisation Classes (UAE, Abu Dhabi) </div>
           <div id="description-text"> 2016 </div>
@@ -99,15 +106,57 @@
           <div id="description-text"> 2000-2007 </div>
           <div class="description-subtext"> The Finchley Ballet School (UK, London). Followed the Royal Academy of Dance curriculum.</div>
 
-          <iframe src="https://player.vimeo.com/video/196334320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <p><a href="https://vimeo.com/196334320">ATRIUM | Alexandre Bagot &amp; Marika Niko</a> from <a href="https://vimeo.com/user35763379">Alexandre Bagot</a> on <a href="https://vimeo.com">Vimeo</a>; Video Performance.</p>
+      <hr class="featurette-divider">
           
-          <div id="section-images">
+          <!-- <div id="section-images">
             <img src="TEST/mover/dance1.jpg" />
             <img src="TEST/mover/dance2.jpg" /></div>
-          <div class="photoCred"> Photo Credits To Motoi Oyane and Jose A. Varias </div>
-        </center>
-        </div>
+          <div class="photoCred"> Photo Credits To Motoi Oyane and Jose A. Varias </div> -->
+
+        <!-- <div class="title"> Mover: Productions</div> -->
+         <div class="production-title"> RHINO </div>
+          <div class="production-detail"> 2018 Performance, Berlin Germany </div>
+          <div class="description-text"> RHINO tackles Eugene Ionesco’s 'Rhinoceros' through dissecting the chronology of transfiguration, specifically between the human and non-human world. The performance questions whether it is possible to determine the tipping point of this transformation, or whether it is in fact an ongoing process. Investigating the mundane reality of the characters in Ionesco’s play: the ways in which they communicate with one another, the relationships they build and break, and the choices they make, RHINO attempts to understand the complexity of why someone transforms. </div>
+           <div id="section-images">
+            <img src="TEST/dance/rhino1.png" />
+            <iframe src="https://player.vimeo.com/video/266374664" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/266374664">RHINO trailer</a> from <a href="https://vimeo.com/user67141537">Salber Williams</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+       </div>
+      <hr id="featurette-divider">
+        <div class="production-title"> The Creative Act: Performance, Process, Presence  </div>
+          <div class="production-detail"> 2017 Performance, Abu Dhabi UAE </div>
+          <div class="description-text">In collaboration with the Guggenheim Abu Dhabi and artist Susan Hefuna, we created a 20 minutes movement piece which explores the tension, energy, and connection that exists in between other human bodies.</div>
+          <div id="section-images">
+             <img src="TEST/dance/gghm1.jpg" />
+             <img src="TEST/dance/gghm2.jpg" />
+          </div>
+          <div class="photoCred"> Photo Credits To The Guggenheim Museum Abu Dhabi </div>
+      <hr id="featurette-divider">
+        <div class="production-title"> Yelow Brick Road </div>
+          <div class="production-detail"> 2017 Performance, Abu Dhabi UAE </div>
+          <div class="description-text">Theatrical adaptation by Tomi Tsunoda of The Wonderful Wizard of Oz, that explores contemporary conversations around climate crisis, displacement, bureaucracy, survival, and dependency.</div>
+          <div id="section-images">
+             <img src="TEST/dance/yellow1.jpg" />
+             <img src="TEST/dance/yellow2.jpg" />
+             <img src="TEST/dance/yellow3.jpg" />
+          </div>
+          <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+      <hr id="featurette-divider">
+        <div class="production-title"> in the becoming </div>
+          <div class="production-detail"> 2016 Performance, Abu Dhabi UAE </div>
+          <div class="description-text"> Being inspired by Butoh, this piece talks about how my body actively chooses, embodies, deforms, habitualizes, and takes on the pressure not from society but from my own self. Directed, choreographed, performed, and designed by me. </div>
+          <div id="section-images">
+             <img src="TEST/dance/slp1.jpg" />
+          </div>
+          <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
+      <hr id="featurette-divider">
+        <div class="production-title"> ATRIUM </div>
+          <div class="production-detail"> 2016 Video Performance, Abu Dhabi UAE </div>
+          <div class="description-text"> ATRIUM, choreographed by Alexandre Bagot, is the product of an exploration of the intersection of bodies in movement and of the creative methodologies involved in choreography.</div>
+            <iframe src="https://player.vimeo.com/video/196334320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/196334320">ATRIUM | Alexandre Bagot &amp; Marika Niko</a> from <a href="https://vimeo.com/user35763379">Alexandre Bagot</a> on <a href="https://vimeo.com">Vimeo</a></p>  
+    </center>
+    </div><!-- 
 
 
         <div class="productions">
@@ -150,7 +199,7 @@
             </div>
             <div class="photoCred"> Courtesy of The NYUAD Theater Program, Photo Credits To Koh Terai </div>
         </center>
-        </div>
+        </div> -->
 
         </div> <!-- for class"mover" -->
         </div> <!-- for class"content" -->
