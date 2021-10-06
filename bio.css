@@ -53,8 +53,12 @@ a{
 /*<-- bio -->*/
 
 img {
-  /*max-width: 300px;*/
-  display: block;
+  /*max-width: 300px;
+  display: block;*/
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  opacity: 1.0;
 }
 
 .myBio {
