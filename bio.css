@@ -53,7 +53,7 @@ a{
 /*<-- bio -->*/
 
 img {
-  /*max-width: 300px;*/
+  max-width: 600px;
   display: block;
 }
 
@@ -61,8 +61,8 @@ img {
   display: block;
   font-weight: 400;
   font-family: 'EB Garamond', serif;
-  /*max-width: 300px;*/
-  margin: auto;
+  max-width: 600px;
+  margin: 40px;
   text-align: center;
 }
 
