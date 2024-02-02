@@ -42,13 +42,6 @@ a{
   font-size: 15px;
 }
 
-.button3{
-  font-weight: 300;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  opacity: 0.5;
-  font-size: 15px;
-  margin-left: 20px;
-}
 
 /*<-- WORKS subbar -->*/
 
@@ -60,23 +53,7 @@ a{
   cursor: pointer;
 }
 
-.designButton{
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.danceButton{
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.fibartButton{
+.mrButton{
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -130,6 +107,7 @@ a{
   font-family: 'EB Garamond', serif;
   width: 60%;
   margin-top: 20px;
+  text-align: left;
 }
 
 .description-subtext{
@@ -137,13 +115,6 @@ a{
   font-family: 'EB Garamond', serif;
   width: 60%;
   margin-bottom: 30px;
-}
-
-#description-text{
-  font-weight: 300;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  margin-top: 20px;
-  width: 75%;
 }
 
 /*<-- productions -->*/
@@ -200,6 +171,14 @@ img {
     margin: 15px;
 }
 
+#section-images .photoCred {
+  font-weight: 400;
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
 /*<-- dividers -->*/
 
 .featurette-divider {
@@ -214,4 +193,11 @@ img {
 #featurette-divider {
   margin-top: 80px;
   max-width: 10%;
+}
+
+footer {
+  padding-top: 50px;
+  height: 100px;
+  font-family: 'EB Garamond', serif;
+  font-size: 12px;
 }

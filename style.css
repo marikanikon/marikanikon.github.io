@@ -33,6 +33,7 @@ a{
   opacity: 0.5;
   font-size: 15px;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 .button2{
@@ -40,14 +41,7 @@ a{
   font-family: 'Alegreya Sans SC', sans-serif;
   opacity: 0.5;
   font-size: 15px;
-}
-
-.button3{
-  font-weight: 300;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  opacity: 0.5;
-  font-size: 15px;
-  margin-left: 20px;
+  text-decoration: none;
 }
 
 /*<-- WORKS subbar -->*/
@@ -60,7 +54,7 @@ a{
   cursor: pointer;
 }
 
-.designButton{
+.mrButton{
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -68,24 +62,7 @@ a{
   cursor: pointer;
 }
 
-.danceButton{
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.fibartButton{
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.otherButton{
-  width: 100px;
+.otherButton{width: 100px;
   height: 100px;
   display: inline-block;
   opacity: 0.5;
@@ -98,3 +75,11 @@ img {
     display: inline-block;
     opacity: 1.0;
 }
+
+footer {
+  padding-top: 350px;
+  height: 100px;
+  font-family: 'EB Garamond', serif;
+  font-size: 12px;
+}
+
