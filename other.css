@@ -99,11 +99,18 @@ a{
 }
 
 .description-text{
+  list-style-position: outside;
   font-weight: 400;
   font-family: 'EB Garamond', serif;
   width: 60%;
   margin-top: 20px;
   text-align: left;
+}
+
+.description-text li {
+  list-style-position: inside;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
 }
 
 .description-subtext{
@@ -113,6 +120,54 @@ a{
   margin-bottom: 30px;
 }
 
+.inside-summary {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  text-align: left;
+  font-weight: 400;
+  font-family: 'EB Garamond', serif;
+}
+
+.inside-summary li {
+  display: grid;
+  grid-template-columns: 4em 1fr;
+  align-items: start;
+  padding: 0;          /* cancels the old padding-left */
+  text-indent: 0;      /* cancels the old negative indent */
+  margin-bottom: 14px;
+}
+
+.list-month {
+  justify-self: start;       /* shrink to fit the text */
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 7px;
+  white-space: nowrap;       /* keeps "Nov–Dec" on one line */
+  line-height: 1;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  text-indent: 0;
+}
+
+.list-body {
+  padding-top: 5px;          /* lines the title up with the circle's middle */
+}
+
+.list-detail {
+  display: block;
+  font-weight: 300;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 13px;
+  margin-top: 2px;
+}
 
 /*<-- productions -->*/
 .productions {
